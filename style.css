@@ -1,0 +1,261 @@
+/* GENERAL SETUP */
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    width: 80vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+p{
+    line-height: 1.5rem;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background-color: #111111;
+}
+/* Index Styling -------------------------------------------------------------*/
+
+header{
+    background-image: url(assets/gray-box-background.jpg);
+    height: 65vh;
+    margin-bottom: 10px;
+    
+}
+.welcome_mssg{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.main{
+    height: 35vh;
+    column-count: 3;
+    margin-top: 1px;
+}
+.main_p{
+    text-align: center;
+    margin-top: 0;
+}
+.title{
+    text-align: center;
+    margin-top: 0;
+}
+
+/* About Styling-------------------------------------------- */
+
+.box{
+    height: 10vh;
+    width: 100%;
+    border: 2px solid black;
+    margin: auto auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headline{
+    margin: auto auto;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bio{
+    height: 45vh;
+    padding: 1px;
+}
+.biopic img{
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+}
+.biopic{
+    width: 35%;
+    margin-right: 10px;
+    float: left;
+    padding: 5px;
+}
+.biotext{
+    width: 60%;
+    float: right;
+    padding: 5px;
+    height: 44vh;
+    
+}
+.title2{
+    margin-bottom: 2vh;
+    text-align: center;
+}
+.cvr_letter_container{
+    height: 50vh;
+    padding: 2vh;
+    width: 100%;
+    margin: 0;
+    
+}
+.cvr_letter_txt{
+    width: 50%;
+    float: left;
+    line-height: 1.5rem;
+}
+.cvr_img{
+    width: 30%;
+    height: 45vh;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cvr_img img{
+    height: 41vh;
+    width: 100%;
+    margin: 0 10px;
+}
+
+
+
+.button{
+    height: 5vh;
+    width: 10vw;
+    border: solid black;
+    margin: auto auto;
+    text-align: center;
+    padding-top: 2.5px;
+    padding-bottom: 2px;
+}
+
+/* Projects Styling--------------------------------------- */
+
+/* .box_project{
+    height: 10vh;
+    width: 100vw;
+    border: 2px solid black;
+    margin: auto auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+/* .headline{ 
+    margin: auto auto;
+    text-align: center;
+} */
+.left{
+    width: 45%;
+    height: 150vh;
+    margin: 2px;
+    float: left;
+}
+.leftbox{
+    column-count: 2;
+    margin: 5px;
+    height: 60vh;
+}
+.p1{
+    text-align: center;
+}
+.p1 img{
+    height: 200px;
+    width: 200px;
+    
+}
+.p2{
+    margin: 5px;
+    width: auto;
+    height: 90vh;
+    text-align: center;
+}
+.p2 img{
+    height: 400px;
+    width: 100%;
+
+}
+.right{
+    width: 45%;
+    height: 150vh;
+    margin: 2px;
+    float: right;
+}
+.p2-5{
+    margin: 5px;
+    width: auto;
+    height: 90vh;
+    text-align: center;
+}
+.p2-5 img{
+    height: 400px;
+    width: 100%;
+}
+.rightbox{
+    column-count: 2;
+    margin: 5px;
+    height: 60vh;
+}
+.p1-5{
+    text-align: center;
+}
+.p1-5 img{
+    height: 200px;
+    width: 200px;
+}
+/* Resume Styling------------------------------------ */
+.resume{
+    height: 55vh;
+    width: 100%;
+    column-count: 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.res{
+    height: 54vh;
+    width: 23vw;
+    margin: auto auto;
+}
+.resume2{
+    height: 60vh;
+    width: 100%;
+    column-count: 4;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.res1{
+    height: 54vh;
+    width: 17vw;
+    margin: auto auto;
+}
+.footer{
+    margin-top: 20px;
+    height: 10vh;
+    width: 100%;
+    column-count: 3;
+
+}
+.footer ul{
+    text-align: center;
+    list-style: none;
+
+}
+.footer ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: auto auto;
+
+}
